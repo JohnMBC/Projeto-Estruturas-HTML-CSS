@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário base para projeto</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Dados do usuário</legend>
+            <div>
+                <label for="nome">Nome</label>
+                <input id="nome" type="text">
+    
+                <label for="sobrenome"> Sobrenome</label>
+                <input id="sobrenome" type="text">
+            </div>
+    
+            <div>
+                <label for="nascimento">Data de nascimento</label>
+                <input id="nascimento" type="date">
+    
+                <label for="telefone">Telefone</label>
+                <input id="Telefone" type="tel" placeholder="+55 (38) 9999-9999">
+            </div>
+    
+            <div>
+                <label for="rg">RG</label>
+                <input id="rg" type="text" placeholder>
+    
+                <label for="CPF">CPF</label>
+                <input id="cpf" type="text">
+            </div>
+        </fieldset>
+        <legend>Endereço</legend>
+    
+        <label for="">CEP</label>
+        <input type="text">
+    
+        <label for="">rua</label>
+        <input type="text">
+    
+        <label for="">Numero</label>
+        <input type="number">
+    
+        <label for="">complemento</label>
+        <input type="text">
+        <legend>Configuração da conta</legend>
+    
+        <fieldset>
+            <legend>Tipo de conta</legend>
+    
+            <label>Basico</label>
+            <input type="radio" name="conta" value="basico">
+    
+            <label>Prime</label>
+            <input type="radio" name="conta" value="basico">
+    
+            <label>Premium</label>
+            <input type="radio" name="conta" value="basico">
+    
+    
+        </fieldset>
+        <label for="contrato">Tempo de contrato</label>
+    
+        <select name="" id="contrato">
+    
+            <option>6 meses</option>
+            <option>1 ano</option>
+            <option>2 anos</option>
+            <option>4 anos</option>
+    
+        </select>
+    
+    
+        <div>
+            <p>Forma de pagamento</p>
+            <input type="checkbox">
+            <label>A vista</label>
+    
+            <input type="checkbox">
+            <label>A prazo</label>
+    
+            <input type="checkbox">
+            <label>parcelado</label>
+        </div>
+    
+        <fieldset>
+            <legend>Pesquisa</legend>
+    
+            <p>Como vc avalia sua facilidade de aprendizado?</p>
+            <input type="range" min="1" max="11" step="2">
+    
+            <p>O quanto vc nos avalia até aqui?</p>
+            <input type="number" min="1" max="5" value="5">
+    
+            <p>Qual a chance de nos recomendar a um amigo?</p>
+            <input type="radio" value="1" name="recomendação">
+            <label>1</label>
+    
+            <input type="radio" value="2" name="recomendação">
+            <label>2</label>
+    
+            <input type="radio" value="3" name="recomendação">
+            <label>3</label>
+    
+            <input type="radio" value="4" name="recomendação">
+            <label>4</label>
+    
+            <input type="radio" value="5" name="recomendação">
+            <label>5</label>
+        </fieldset>
+    
+        <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>
